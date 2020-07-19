@@ -1,14 +1,22 @@
 // Widescreens
 @include mediaXl {
   .projects {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .skill-section {
+    margin: auto;
+    width: 50vw;
   }
 }
 
 // Desktops & Laptops
 @include mediaLg {
   .projects {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .skill-section {
+    margin: auto;
+    width: 600px;
   }
 }
 
@@ -63,7 +71,7 @@
   }
 
   .projects {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
   }
 }
 
